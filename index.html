@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanskruti's PF</title>
+    <style>
+        body{
+            /* font-family:"Quicksand", sans-serif; */
+            /* background:#151515; */
+            background-image:url(redbg.webp);
+            background-repeat:no-repeat; 
+            margin: 0;
+            padding:0;
+        }
+         
+        #wrapper{
+            border:0 solid black;
+            width:1000px;
+            height:600px;
+            height:50%;
+            background: white;
+            margin: 0 auto;
+        }
+        #header{
+            font-family: 'Pangolin', cursive;
+            background:rgb(237, 50, 50);
+            color:rgb(12, 12, 12);
+            font-size: 15px;;
+            height:50px;
+        }
+        #header h1{
+           padding:0 20px;
+        }
+        #menu{
+            /* background:lightsalmon; */
+            font-family: 'Pangolin', cursive;
+            height:48px;
+        }
+        #menu ul{
+            margin:0;
+            padding: 0;
+        }
+        #menu li{
+            display:inline-block;
+        }
+        #menu li a{
+            display:block;
+            padding:10px 14px;
+            text-decoration: none;
+             color:black; 
+         }
+        #menu li a:hover{
+            background:crimson;
+            color:rgb(18, 17, 17);
+        }
+        #content{
+            background-color: #E5E7E9;
+            width:800px;
+            min-height: 600px;
+            padding:5px;
+            font-size: 50px;
+            float:left;
+            box-sizing: border-box;
+            
+        }
+        #box{
+            width:600px;
+            height:500px;
+            padding:15px;
+            border:0 solid black;
+            background-color: white;
+            background-image: url(mickey.webp) ;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-origin: border-box ;
+        }
+        #sidebar{
+            background:#fca7a7;
+            width:200px;
+            min-height: 603px;
+            float:right;
+        }
+        #sidebar a{
+            text-decoration: none;
+        }
+        #footer{
+            background:rgb(237, 50, 50);
+            padding:5px 10px;
+            text-align: right;
+            clear:both;
+        }
+        blink{
+            animation: blinker 1s linear infinite;
+            color: black;
+            font-family: sans-serif;
+        }
+        @keyframes blinker {
+                40% {
+                    opacity: 0;
+                }
+            }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <h1>Welcome to my Portfolio 🤗</h1>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="">Home🏡</a></li>
+                <li><a href="about.html"><p>About❓</p></a></li>
+                <li><a href="contactme.html"><p>Contact me💌</p></a></li>
+                
+            </ul>
+        </div>
+        <div id="content" class="my-4">
+            
+            <marquee width="80%" direction="left" height="50px">
+                Hey! Sanskruti Kolgane this side
+                </marquee>
+            <div id="box"></div>
+            
+            
+        </div>
+        <div id="sidebar">
+            <li><a href="">Home🏡</a></li>
+                <li><a href="about.html">About❓</a></li>
+                <li><a href="contactme.html">Contact me💌</a></li>
+
+        </div>
+        <div id="footer">
+            <marquee class="blink">sanskrutikolgane@gmail.com</marquee>
+        </div>
+    </div>
+</body>
+</html>
