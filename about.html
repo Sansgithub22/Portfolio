@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About meee</title>
+    <style>
+        body{
+            font-family: 'Pangolin', cursive;
+            /* background:linear-gradient(45deg,rgb(109, 194, 196),rgb(219, 81, 104),white,rgb(213, 88, 109),rgb(109, 194, 196)); */
+            /* background:linear-gradient(45deg,black,rgb(234, 102, 124),black); */
+            /* background: 100%; */
+            /* background-image:url(blackp.jpeg); */
+            background-image: url(butff.jpg) ;
+            margin: 0;
+            padding:0;
+        }
+        #wrapper{
+            border:0 solid black;
+            width:1000px;
+            background: white;
+            margin: 0 auto;
+        }
+        #header{
+            background:rgb(232, 72, 101);
+            /* background:black; */
+            color:azure;
+            height:100px;
+        }
+        #header h1{
+           padding:40px 0 0 20px;
+        }
+        #menu{
+            background:#17A589 ;
+        }
+        #menu ul{
+            margin:0;
+            padding: 0;
+        }
+        #menu li{
+            display:inline-block;
+        }
+        #menu li a{
+            display:block;
+            padding:10px 14px;
+            text-decoration: none;
+            /* color:black; */
+        }
+        #menu li a:hover{
+            /* background:crimson; */
+            color:rgb(18, 17, 17);
+        }
+        #content{
+            /* background-image:url(about.jpg); */
+            background-color: rgb(215, 191, 195) ;
+            background-repeat:no-repeat; 
+            width:1000px;
+            min-height: 500px;
+            padding:80px;
+            float:left;
+            box-sizing: border-box;
+        }
+        #box{
+            background:linear-gradient(45deg,rgb(109, 194, 196),rgb(219, 81, 104),white,rgb(213, 88, 109),rgb(109, 194, 196));
+            width:800px;
+            height:300px;
+            padding:10px;
+            font-size:20px;
+            /* border:2px solid black; */
+            background-color: white;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-origin: border-box ;
+        }
+        #footer{
+            background:rgb(232, 72, 101);
+            padding:5px 10px;
+            text-align: right;
+            clear:both;
+        }
+        @media screen and (max-width:1020px) {
+            #wrapper{
+                width:800px;
+            }
+            #content{
+                width:80%;
+            }
+            #sidebar{
+                width:12%
+            }
+        }
+        @media screen and (max-width:810px) {
+            #wrapper{
+                width:500px;
+            }
+            #content{
+                width:70%;
+            }
+            #sidebar{
+                width:29%
+            }
+        }
+        @media screen and (max-width:510px) {
+            #wrapper{
+                width:auto;
+            }
+            #content{
+                width:100%;
+                float: none;
+            }
+            #sidebar{
+                width:100%
+            }
+            #header{
+            padding: 30px 0 0 0;
+            text-align: center;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <h1>Welcome to my Portfolio 🤗</h1>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="index.html"><p>Home🏡</p></a></li>
+                <li><a href="about.html"><p>About❓</p></a></li>
+                <li><a href="contactme.html"><p>Contact me💌</p></a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <!-- <h2>Design Basic Layout </h2> -->
+            <div id="box">
+                <p>Hey👋</p>
+                <p>Meet sanskruti kolgane a student and enthusiastic web developer from India ✈️. </p> 
+                <p> A Computer Science and Engineering Undergraduate student at the Indian Institute of technology Varanasi(BHU) 👩‍💻
+                   A girl Passionate for coding 💻 and loves❤️ new challenges and explores the world of Programming with enthusiasm and determination 👩‍💼.  
+                   <!-- <p>Reach me at <a href = "sanskrutikolgane@gmail.com">send Email❤️</a> -->
+                    <p>Reach me at <a href="mailto:sanskrutikolgane@gmail.com">send Email❤️</a></p>
+                </p>
+            </div>
+        </div>
+        <div id="footer">
+            <p><a href="mailto:sanskrutikolgane@gmail.com">sanskrutikolgane@gmail.com</a></p>
+        </div>
+    </div>
+</body>
+</html>
