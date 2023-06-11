@@ -10,13 +10,14 @@
      <style>
     body{
         font-family:'Pangolin', cursive;
-        background-color: #d8d8d8;
+        background-color: #050404;
         margin: 0;
         padding:0;
     }
     #menu{
-        /* background:lightsalmon; */
+        color:palevioletred;
         font-size: 25px;
+        
     }
     #menu ul{
         margin:0;
@@ -24,33 +25,99 @@
     }
     #menu li{
         display:inline-block;
+        color:palevioletred;
     }
     #menu li a{
         display:block;
         padding:10px 14px;
         text-decoration: none;
+        color:palevioletred;
         /* color:black; */
     }
     #menu li a:hover{
         /* background:crimson; */
-        color:rgb(18, 17, 17);
+        color:rgb(242, 37, 71);
     }
+
+.input-box {
+    position: center;
+    width: 50%;
+    margin-bottom: 10px;
+    margin-left: 345px;
+    margin-top: 10px;
+}
+
+.input-box input,textarea{
+    color: rgb(0,0,0);
+    width: 100%;
+    padding: 5px;
+    font-size: 1em;
+    font-weight: 500;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid rgb(0,0,0);
+}
+
+.send-btn {
+    color: rgb(255,255,255);
+    background-color: palevioletred;
+    display: inline-block;
+    font-size: 1.1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+.send-btn:hover {
+    color: rgb(30, 237, 245);
+}
+.oncall{
+    margin-top:5px;
+    margin-left:500px;
+    width:80%;
+    height:80%;
+    align-self: center;
+}
+
+
+
 </style>
 </head>
 <body>
     <div id="menu">
             <ul>
-                <li><a href="index.html">Home 🏠</a></li>
-                <li><a href="about.html">About❓</a></li>
-                <li><a href="contactme.html">Contact me 💌</a></li>
+                <li><a href="index.html">Home </a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="about.html">Skills</a></li>
+                <li><a href="contactme.html">Contact me </a></li>
             </ul>
+        </div>
+        <div class="row">
+            <div class="contact-form">
+                <!-- <h3>Send Message</h3> -->
+                <div class="input-box">
+                    <input type="text" name="" value="" placeholder="Name">
+                </div>
+                <div class="input-box">
+                    <input type="text" name="" value="" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <textarea name="name" rows="5" cols="50" placeholder="Message"></textarea>
+                </div>
+                <div class="input-box">
+                    <input type="submit" class="send-btn">
+                </div>
+            </div>
         </div>
 
         
 
 
     <div class="menu">
-            <p>Wanna know more about me? Here are my social links! Ping me anytime</p>
+            <!-- <p>Wanna know more about me? Here are my social links! Ping me anytime</p> -->
         <ul>
             <li><a href="https://github.com/Sansgithub22"><i class="fab fa-github"></i></a></li>
             <li><a href="https://www.linkedin.com/in/sanskruti-kolgane-b82a1922a/"><i class="fab fa-linkedin-in"></i></a></li>
@@ -58,5 +125,9 @@
             <li><a href="https://www.instagram.com/__k.sanskruti___/"><i class="fab fa-instagram"></i></a></li>
           </ul>
     </div>
+    <div class="oncall">
+        <img src="call.png" alt="" />
+    </div>
+    
 </body>
 </html>
